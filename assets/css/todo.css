@@ -82,9 +82,16 @@ input:focus {
 
 #container {
     margin: 100px auto;
+    margin-top: 5px;
     width: 300px;
     background-color: #f7f7f7;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+#img-container {
+    margin: 100px auto;
+    margin-bottom: 0;
+    width: 300px;	
 }
 
 
