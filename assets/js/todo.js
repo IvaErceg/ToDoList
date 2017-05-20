@@ -13,7 +13,7 @@ $("ul").on("click", "span", function(event){
 $("input").keypress(function(e){
     if(e.which === 13){
         var text = $(this).val()
-        $("ul").append("<li><span>X </span>" + text + "</li>");
+        $("ul").append('<li><span><i class="fa fa-trash"></i></span>' + text + '</li>');
         $(this).val("");
 }
 });
